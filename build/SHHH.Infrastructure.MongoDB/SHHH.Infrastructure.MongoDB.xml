@@ -33,5 +33,41 @@
             </summary>
             <returns>The current <see cref="T:MongoDB.Driver.MongoDatabase"/>.</returns>
         </member>
+        <member name="T:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1">
+            <summary>
+            Sets up some base functionality for a repository class
+            </summary>
+            <typeparam name="T">The entity the repository works with</typeparam>
+        </member>
+        <member name="M:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1"/> class.
+            </summary>
+            <param name="collectionName">Name of the collection.</param>
+        </member>
+        <member name="M:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1.Attach(`0[])">
+            <summary>
+            Attaches the specified objects.
+            </summary>
+            <param name="objects">The objects to attach.</param>
+            <exception cref="T:System.InvalidOperationException">Thrown when the save fails</exception>
+        </member>
+        <member name="M:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1.GetCollection">
+            <summary>
+            Gets the collection.
+            </summary>
+            <returns>The <see cref="T:MongoDB.Driver.MongoCollection"/> for <see cref="T:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1"/> objects</returns>
+        </member>
+        <member name="M:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1.GetQueryable">
+            <summary>
+            Gets the queryable collection.
+            </summary>
+            <returns>An <see cref="T:System.Linq.IQueryable`1"/>.</returns>
+        </member>
+        <member name="P:SHHH.Infrastructure.MongoDB.MongoRepositoryBase`1.CollectionName">
+            <summary>
+            Gets or sets the collection name
+            </summary>
+        </member>
     </members>
 </doc>
