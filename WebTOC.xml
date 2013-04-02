@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="07788183-4b8d-4a47-a08d-f4e372b095b4" Title="SHHH.Infrastructure.MongoDB Namespace" Url="html/0167e942-d690-f021-9e04-55464d468c8c.htm">
+    <HelpTOCNode Id="1afd8797-bca1-4a01-9c0c-c4c096fcbd91" Title="MongoMapper Class" Url="html/c6269b33-e2d9-607f-908e-901de2dee3d7.htm">
+      <HelpTOCNode Title="MongoMapper Members" Url="html/5699cc3a-1e18-3d95-d32b-7aa6342e91d4.htm" />
+      <HelpTOCNode Title="MongoMapper Constructor " Url="html/85ab2bf3-7556-76e7-ff05-a67e2ec7ba82.htm" />
+      <HelpTOCNode Id="37f79975-a413-4950-9104-9b94051f0338" Title="MongoMapper Methods" Url="html/e302b54d-4603-c3fa-4394-bbfb7235dcf0.htm">
+        <HelpTOCNode Title="ConfigureDatabase Method " Url="html/a9fa8653-b3f3-236b-2dd6-2c37944f572d.htm" />
+        <HelpTOCNode Title="ConnectDatabase Method " Url="html/7305da93-4cc4-0d10-7f85-f692448eb00c.htm" />
+        <HelpTOCNode Title="RegisterClassMap(TClass) Method " Url="html/6bb4d125-4b23-2706-be46-39c6a1a5bcaa.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="08b7932f-58b0-42d6-a609-d224cf66ad24" Title="MongoMapper Properties" Url="html/5b2564f7-18d1-6ca7-5aec-8d2dc86f5073.htm">
+        <HelpTOCNode Title="Database Property " Url="html/3added1c-8465-d758-0228-0d4de79f79a5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
