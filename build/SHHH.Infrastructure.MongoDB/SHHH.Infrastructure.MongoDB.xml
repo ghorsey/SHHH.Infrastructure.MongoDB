@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SHHH.Infrastructure.MongoDB</name>
+    </assembly>
+    <members>
+        <member name="T:SHHH.Infrastructure.MongoDB.MongoMapper">
+            <summary>
+            Maps the domain objects and sets up the indexes for the database.
+            </summary>
+        </member>
+        <member name="M:SHHH.Infrastructure.MongoDB.MongoMapper.ConnectDatabase(System.String)">
+            <summary>
+            Connects the database.
+            </summary>
+            <param name="connectionString">The connection string.</param>
+        </member>
+        <member name="M:SHHH.Infrastructure.MongoDB.MongoMapper.ConfigureDatabase">
+            <summary>
+            Configures the database.
+            </summary>
+        </member>
+        <member name="M:SHHH.Infrastructure.MongoDB.MongoMapper.RegisterClassMap``1(System.Action{MongoDB.Bson.Serialization.BsonClassMap{``0}})">
+            <summary>
+            Registers the class map.
+            </summary>
+            <typeparam name="TClass">The type of the class.</typeparam>
+            <param name="classMapInitializer">The class map initializer.</param>
+        </member>
+        <member name="P:SHHH.Infrastructure.MongoDB.MongoMapper.Database">
+            <summary>
+            Gets the database.
+            </summary>
+            <returns>The current <see cref="T:MongoDB.Driver.MongoDatabase"/>.</returns>
+        </member>
+    </members>
+</doc>
