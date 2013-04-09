@@ -40,7 +40,7 @@ namespace SHHH.Infrastructure.MongoDB
         /// </summary>
         /// <param name="objects">The objects to attach.</param>
         /// <exception cref="System.InvalidOperationException">Thrown when the save fails</exception>
-        public void Attach(params T[] objects)
+        public virtual void Attach(params T[] objects)
         {
             try
             {
