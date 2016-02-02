@@ -1,4 +1,4 @@
-SHHH.Infrastructure
+SHHH.Infrastructure.MongoDB
 ===================
 [![AppVeyor](https://img.shields.io/appveyor/ci/GeoffHorsey/shhh-infrastructure-mongodb.svg)](https://ci.appveyor.com/project/GeoffHorsey/shhh-infrastructure-mongodb)
 [![Nuget](https://img.shields.io/nuget/dt/SHHH.Infrastructure.MongoDB.svg)](http://www.nuget.org/packages/SHHH.Infrastructure.MongoDB/)
